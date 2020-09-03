@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/VirtualLearning/precache-manifest.a7680392234deed077e7d4aca25a58a2.js"
+  "/VirtualLearning/precache-manifest.391e1080f32885135db1cd69e4aee20a.js"
 );
 
 self.addEventListener('message', (event) => {
