@@ -15,12 +15,14 @@ Ready for gh-pages deploy.
 
 3. Add .env variables for firebase config 
 
-4. Deploy app to gh-pages. 
+4. Change homepage in package.json
+
+   "homepage" : "https://github.com/<GIT-USERNAME>/<REPO-NAME>"
+   
+
+5. Deploy app to gh-pages. 
    
    npm run deploy
    
-5. Add homepage to package.json
 
-   "homepage" : "https://github.com/jaybenaim/react-starter-template"
-   
-See the demo at https://github.com/jaybenaim/react-starter-template
+See the demo at https://jaybenaim.github.io/react-starter-template/
