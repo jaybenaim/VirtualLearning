@@ -106,19 +106,7 @@ const SignIn = () => {
                     </button>
                   </div>
 
-                  <div className="form-group">
-                    <button
-                      type="button"
-                      className="btn btn-block"
-                      onClick={(event) => {
-                        event.preventDefault();
-                        signInWithProvider("google");
-                      }}
-                    >
-                      <i className="fa fa-google" aria-hidden="true"></i>
-                      Login with Google
-                    </button>
-                  </div>
+                  <div className="form-group"></div>
                 </form>
               </div>
             </div>
