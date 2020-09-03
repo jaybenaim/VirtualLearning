@@ -93,42 +93,6 @@ const SignIn = () => {
 
                   <div className="form-group">
                     <button
-                      type="buton"
-                      className="btn btn-block"
-                      onClick={(event) => {
-                        event.preventDefault();
-                        signInWithProvider("facebook");
-                      }}
-                    >
-                      <i className="fa fa-facebook" aria-hidden="true"></i>
-                      Login with Facebook
-                    </button>
-
-                    <button
-                      type="button"
-                      className="btn btn-block"
-                      onClick={(event) => {
-                        event.preventDefault();
-                        signInWithProvider("twitter");
-                      }}
-                    >
-                      <i className="fa fa-twitter" aria-hidden="true"></i>
-                      Login with Twitter
-                    </button>
-
-                    <button
-                      type="button"
-                      className="btn btn-block"
-                      onClick={(event) => {
-                        event.preventDefault();
-                        signInWithProvider("github");
-                      }}
-                    >
-                      <i className="fa fa-github" aria-hidden="true"></i>
-                      Login with Github
-                    </button>
-
-                    <button
                       type="button"
                       className="btn btn-block"
                       onClick={(event) => {

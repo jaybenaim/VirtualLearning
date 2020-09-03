@@ -28,7 +28,7 @@ const rrfProps = {
 ReactDOM.render(
   <Provider store={store}>
     <ReactReduxFirebaseProvider {...rrfProps}>
-      <BrowserRouter basename="react-starter-template">
+      <BrowserRouter basename="VirtualLearning">
         <ErrorBoundary>
           <App />
         </ErrorBoundary>
