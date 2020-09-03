@@ -46,7 +46,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://jaybenaim.github.io/react-starter-template/",
+  "homepage": "https://jaybenaim.github.io/VirtualLearning/",
   "browserslist": [
     ">0.2%",
     "not dead",

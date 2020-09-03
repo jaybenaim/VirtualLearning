@@ -2,6 +2,7 @@ import firebase from "firebase/app";
 import "firebase/storage";
 import "firebase/auth";
 import "firebase/firestore";
+import "firebase/analytics";
 
 var firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -17,8 +18,7 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-//analytics is optional for this tutoral
-// firebase.analytics();
+firebase.analytics();
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
